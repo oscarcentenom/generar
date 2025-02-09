@@ -7,7 +7,7 @@ import pandas as pd
 #Configuracion de la Pagin
 st.set_page_config(page_title="Generador de contenidos con OpenAI", layout="wide")
 #Configuracion de OpenAI
-cliente = OpenAI(api_key="")
+cliente = OpenAI(api_key="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")
 
 #Crear la funcion para generar articulos
 def generar_articulo(topic):
