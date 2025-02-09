@@ -3,7 +3,7 @@ from openai import OpenAI
 
 
 st.title("ChatGpt")
-cliente = OpenAI(api_key="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")
+cliente = OpenAI(api_key="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")
 
 # creamos la variable de historia del chat
 
